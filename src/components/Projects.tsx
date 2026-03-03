@@ -45,6 +45,9 @@ const projects = [
         link: "https://uvfarms.in",
         image: "/uvfarms.png"
     },
+];
+
+const researchProjects = [
     {
         title: "US Health Care Financial Dashboard",
         period: "May 2025 – May 2025",
@@ -65,9 +68,6 @@ const projects = [
         icon: "trending-up",
         ppt: "/pptx/Market-Analysis-Report-Multicolor.html"
     },
-];
-
-const researchProjects = [
     {
         title: "Event Marketing – Major Events Analysis",
         period: "SRM University • 2023",
@@ -114,7 +114,7 @@ export default function Projects() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-32">
                     {projects.map((project, idx) => (
                         <ProjectCard key={idx} project={project} index={idx} />
                     ))}
@@ -122,14 +122,14 @@ export default function Projects() {
 
                 <div className="mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold mb-4 font-heading">
-                        Academic <span className="text-secondary-purple">Research</span>
+                        Research & <span className="text-secondary-purple">Analysis</span>
                     </h2>
                     <p className="text-text-muted max-w-2xl">
-                        Quantitative studies and market research conducted during academic tenure.
+                        Quantitative studies and market research conducted for in-depth analysis.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl">
                     {researchProjects.map((project, idx) => (
                         <ProjectCard key={idx} project={project} index={idx} isResearch />
                     ))}
