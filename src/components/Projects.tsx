@@ -24,7 +24,7 @@ const projects = [
         tags: ["Python", "Flask", "WebSockets", "Trading Engine"],
         stats: ["<100ms Latency", "99.9% Uptime"],
         image: "/saroption.png",
-        ppt: "/projects-html/SUPER-SAR-Option-Project-Overview.html"
+        ppt: "/pptx/SUPER-SAR-Option-Project-Overview.html"
     },
     {
         title: "NanoProfits AI",
@@ -56,7 +56,7 @@ const researchProjects = [
         tags: ["Power BI", "DAX", "Financial Analysis", "What-If Modelling"],
         stats: ["₹120 Cr Expenses", "12% Pay Trend"],
         image: "/healthcare-dashboard.png",
-        ppt: "/projects-html/US-Healthcare-Dashboard-Technical-Analysis.html"
+        ppt: "/pptx/US-Healthcare-Dashboard-Technical-Analysis.html"
     },
     {
         title: "Market Analysis - Sales Optimization",
@@ -66,7 +66,7 @@ const researchProjects = [
         tags: ["BI", "Statistical Analysis", "Market Research", "Strategic Planning"],
         stats: ["51% Online Share", "18% Gap Found"],
         icon: "trending-up",
-        ppt: "/projects-html/Market-Analysis-Report-Multicolor.html"
+        ppt: "/pptx/Market-Analysis-Report-Multicolor.html"
     },
     {
         title: "Event Marketing – Major Events Analysis",
@@ -81,7 +81,7 @@ const researchProjects = [
             "Evaluated event lifecycle and stakeholder coordination"
         ],
         icon: "search",
-        ppt: "/projects-html/Event_Marketing_Report.html"
+        ppt: "/pptx/Event_Marketing_Report.html"
     },
     {
         title: "Instagram Influencer Marketing Research",
@@ -96,7 +96,7 @@ const researchProjects = [
             "Applied statistical analysis and survey research"
         ],
         icon: "instagram",
-        ppt: "/projects-html/Instagram_Impact_Complete.html"
+        ppt: "/pptx/Instagram_Impact_Complete.html"
     }
 ];
 
